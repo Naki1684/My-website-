@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nakita's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nakita's Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact Information</a>
+        <a href="#blog">Blog</a>
+        <a href="#storefront">Storefront</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Nakita, and I am a mother of three. I have a 24-year-old son, a five-year-old son, and a three-year-old daughter. I am married and a serial entrepreneur. As a stay-at-home mom, I manage an e-commerce store that sells educational flashcards for children. I have also created a blog focusing on overcoming addiction and I sell digital products. Additionally, I have published books on Amazon KDP about life goals, overcoming depression, postpartum, and maintaining a day-to-day routine while having ADHD.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>You can reach me via email at <a href="mailto:nakita@example.com">nakita@example.com</a>.</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Welcome to my mom blog! Here, I share my journey and tips on overcoming addiction, managing life with ADHD, and balancing the roles of a mother and entrepreneur. Stay tuned for more posts!</p>
+    </section>
+    <section id="storefront">
+        <h2>Storefront</h2>
+        <p>Visit my e-commerce store to explore a variety of educational flashcards designed for children. These flashcards are crafted to make learning fun and engaging. <a href="http://www.EWROI.com">Shop now!</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nakita. All rights reserved.</p>
+    </footer>
+</body>
+</html>
